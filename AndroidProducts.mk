@@ -17,4 +17,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_ROO_sprout.mk
+     $(LOCAL_DIR)/twrp_ROO_sprout.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_ROO_sprout-userdebug \
+    twrp_ROO_sprout-eng
